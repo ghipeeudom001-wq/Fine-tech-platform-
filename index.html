@@ -84,7 +84,7 @@ footer{border-top:1px solid var(--bd);background:var(--card);padding:2rem 0;font
 <div id="bb"></div><a id="waf" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"></a><div id="toast"></div><div id="md"><div class="in" id="mdin"></div></div>
 <script>
 (()=>{
-const API=''; // paste your Google Apps Script /exec URL here
+const API='https://script.google.com/macros/s/AKfycbzL3D-ca-pEqaQxmwgzDuUfXjQipuRv_X7YUyiB4wUwVcJ9xl8hsJvVW2S6ybIZyAtW7w/exec'; // paste your Google Apps Script /exec URL here
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const ic=(p,f)=>`<svg class="ic" viewBox="0 0 24 24"${f?' style="fill:currentColor;stroke:none"':''}>${p}</svg>`;
